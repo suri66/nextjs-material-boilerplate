@@ -1,0 +1,35 @@
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 95vh;
+  margin-top: 40px;
+}
+.card {
+  padding: 20px;
+  width: 40%;
+}
+.welcomeText {
+  width: 100%;
+  /* padding: 1.5rem; */
+}
+@media only screen and (max-width: 900px) {
+  .card {
+    width: 100%;
+  }
+  .container {
+    margin: 20px;
+  }
+}
+@media only screen and (max-width: 320px) {
+  .card {
+    width: 100%;
+    padding: 0;
+  }
+  .container {
+    margin: 20px;
+  }
+  .welcomeText {
+    font-size: 20px;
+  }
+}

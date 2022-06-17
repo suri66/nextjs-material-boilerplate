@@ -1,0 +1,42 @@
+.formSection {
+  margin-bottom: 20px;
+  padding: 10px;
+  z-index: 100;
+}
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 100px;
+  z-index: 1000;
+  margin-bottom: 4rem;
+}
+.card {
+  margin-top: 15px;
+  padding: 20px;
+  width: 40%;
+}
+.postIcon {
+  cursor: pointer;
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+@media only screen and (max-width: 900px) {
+  .card {
+    width: 100%;
+  }
+  .container {
+    margin: 20px;
+  }
+}
+@media only screen and (max-width: 320px) {
+  .card {
+    width: 100%;
+    padding: 0;
+  }
+  .container {
+    margin: 20px;
+  }
+}

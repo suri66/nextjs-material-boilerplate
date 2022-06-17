@@ -1,0 +1,22 @@
+@media screen and (max-width: 768px) {
+  .buttonContainer {
+    display: flex;
+    flex-direction: row;
+  }
+  .actionButtons {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 488px) {
+  .buttonContainer {
+    display: flex;
+    flex-direction: row;
+  }
+  .actionButtons {
+    width: 100%;
+  }
+  .menuIcon {
+    margin-right: 0px;
+  }
+}
